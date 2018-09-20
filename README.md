@@ -7,13 +7,6 @@ was forked from
 [mkearney/hex-stickers](https://github.com/mkearney/hex-stickers), but
 has changed a lot.
 
-``` r
-list.files("./stickers") %>% 
-  sprintf("<p align='center'><img src='stickers/%s' width='200px'/></p>", .) %>%
-  paste(collapse = "\n\n") %>% 
-  cat(fill = TRUE)
-```
-
 <p align="center">
 
 <img src='stickers/ds4ling.png' width='200px'/>

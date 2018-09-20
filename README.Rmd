@@ -12,7 +12,7 @@ A repo for my hex stickers. You can find all the [code used to create the hex lo
 [mkearney/hex-stickers](https://github.com/mkearney/hex-stickers), but has 
 changed a lot. 
 
-```{r, results = 'asis'}
+```{r, results = 'asis', echo=F}
 list.files("./stickers") %>% 
   sprintf("<p align='center'><img src='stickers/%s' width='200px'/></p>", .) %>%
   paste(collapse = "\n\n") %>% 
