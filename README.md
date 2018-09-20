@@ -1,159 +1,36 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # hex-stickers
 
 A repo for my hex stickers. You can find all the [code used to create
-the hex logos](code.R) as well as the [PNG](PNG) versions (eventually
-I’ll fix the SVG versions).
+the hex logos](./scripts) as well as the [PNG](./stickers) versions.
 
 ``` r
-list.files("PNG") %>% 
-  sprintf("<p align='center'> <img src='PNG/%s' width='200px' /> </p>", .) %>%
+list.files("./stickers") %>% 
+  sprintf("<p align='center'> <img src='stickers/%s' width='200px' /> </p>", .) %>%
   paste(collapse = "\n\n") %>% 
   cat(fill = TRUE)
 ```
 
 <p align="center">
 
-<img src='PNG/chr.png' width='200px' />
+<img src='stickers/ds4ling.png' width='200px' />
 
 </p>
 
 <p align="center">
 
-<img src='PNG/funique.png' width='200px' />
+<img src='stickers/imgfile.png' width='200px' />
 
 </p>
 
 <p align="center">
 
-<img src='PNG/hexagon.png' width='200px' />
+<img src='stickers/osrrl.png' width='200px' />
 
 </p>
 
 <p align="center">
 
-<img src='PNG/ig.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/kaggler.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/name2sex.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/newsAPI.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/nyt.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/nytimes.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/pkgverse.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/rtweet.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/smartread.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/textfeatures.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/tfse.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/tidycat.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/tidycor.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/tidymlm.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/tidyreg.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/tidysem.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/tidyversity.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/tweetbotornot.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/useapi.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/warcraft.png' width='200px' />
-
-</p>
-
-<p align="center">
-
-<img src='PNG/wordword.png' width='200px' />
+<img src='stickers/rap-group.png' width='200px' />
 
 </p>
