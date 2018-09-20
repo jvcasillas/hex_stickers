@@ -8,11 +8,13 @@ library(dplyr)
 
 # hex-stickers
 
-A repo for my hex stickers. You can find all the [code used to create the hex logos](./scripts) as well as the [PNG](./stickers) versions.
+A repo for my hex stickers. You can find all the [code used to create the hex logos](./scripts) as well as the [PNGs](./stickers). This repo was forked from 
+[mkearney/hex-stickers](https://github.com/mkearney/hex-stickers), but has 
+changed a lot. 
 
 ```{r, results = 'asis'}
 list.files("./stickers") %>% 
-  sprintf("<p align='center'> <img src='stickers/%s' width='200px' /> </p>", .) %>%
+  sprintf("<p align='center'><img src='stickers/%s' width='200px'/></p>", .) %>%
   paste(collapse = "\n\n") %>% 
   cat(fill = TRUE)
 ```
