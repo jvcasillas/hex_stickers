@@ -6,7 +6,7 @@ output: github_document
 library(dplyr)
 ```
 
-# hex-stickers
+## hex-stickers
 
 A repo for my hex stickers. You can find all the [code used to create the hex logos](./scripts) as well as the [PNGs](./stickers). This repo was forked from 
 [mkearney/hex-stickers](https://github.com/mkearney/hex-stickers), but has 
@@ -18,3 +18,10 @@ list.files("./stickers") %>%
   paste(collapse = "\n\n") %>% 
   cat(fill = TRUE)
 ```
+
+## To add
+
+- untidydata
+- lingStuff
+- academicWriteR
+- SPAN362
