@@ -15,6 +15,12 @@ has changed a lot.
 
 <p align="center">
 
+<img src='stickers/intro_phonetics.png' width='200px'/>
+
+</p>
+
+<p align="center">
+
 <img src='stickers/osrrl.png' width='200px'/>
 
 </p>
@@ -30,4 +36,3 @@ has changed a lot.
   - untidydata
   - lingStuff
   - academicWriteR
-  - SPAN362
