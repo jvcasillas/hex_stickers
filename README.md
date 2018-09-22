@@ -9,31 +9,31 @@ has changed a lot.
 
 <p align="center">
 
-<img src='stickers/ds4ling.png' width='200px'/>
+<img src='stickers/ds4ling.png' width='350px'/>
 
 </p>
 
 <p align="center">
 
-<img src='stickers/intro_phonetics.png' width='200px'/>
+<img src='stickers/intro_phonetics.png' width='350px'/>
 
 </p>
 
 <p align="center">
 
-<img src='stickers/osrrl.png' width='200px'/>
+<img src='stickers/osrrl.png' width='350px'/>
 
 </p>
 
 <p align="center">
 
-<img src='stickers/rap-group.png' width='200px'/>
+<img src='stickers/rap-group.png' width='350px'/>
 
 </p>
 
 <p align="center">
 
-<img src='stickers/untidydata.png' width='200px'/>
+<img src='stickers/untidydata.png' width='350px'/>
 
 </p>
 
