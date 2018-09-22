@@ -31,6 +31,12 @@ has changed a lot.
 
 </p>
 
+<p align="center">
+
+<img src='stickers/untidydata.png' width='200px'/>
+
+</p>
+
 ## To add
 
   - untidydata

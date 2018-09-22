@@ -13,3 +13,13 @@ sticker(
   u_color = 'white',
   filename = "stickers/rap-group.png")
 
+
+img_path_v2 <- "./img_helpers/praat_dark.png"
+
+sticker(
+  img_path_v2, package = "RAP\n\nGROUP", p_color = ru_colors['RUred'],
+  p_family = "Aller_Rg", p_size = 5, p_y = 0.95,
+  s_x = 1, s_y = 1.05, s_width = 0.9, s_height = 1,
+  h_fill = NA, h_color = NA, spotlight = F,
+  filename = "stickers/rap-group-v2.png")
+

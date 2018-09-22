@@ -14,6 +14,10 @@ changed a lot.
 
 ```{r, results = 'asis', echo=F}
 list.files("./stickers") %>% 
+  as_tibble(.) %>% 
+  rename(., val = value) %>% 
+  filter(., val != "rap-group-v2.png") %>% 
+  pull(.) %>% 
   sprintf("<p align='center'><img src='stickers/%s' width='200px'/></p>", .) %>%
   paste(collapse = "\n\n") %>% 
   cat(fill = TRUE)
