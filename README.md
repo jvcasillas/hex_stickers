@@ -39,6 +39,5 @@ has changed a lot.
 
 ## To add
 
-  - untidydata
   - lingStuff
   - academicWriteR

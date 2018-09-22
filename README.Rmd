@@ -25,6 +25,5 @@ list.files("./stickers") %>%
 
 ## To add
 
-- untidydata
 - lingStuff
 - academicWriteR
