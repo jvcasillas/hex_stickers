@@ -27,5 +27,4 @@ list.files("./stickers") %>%
 
 - lingStuff
 - academicWriteR
-- Phonetics of bilingualism
 
