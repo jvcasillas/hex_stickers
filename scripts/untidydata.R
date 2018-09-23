@@ -92,7 +92,6 @@ sticker(
   p, package = "untidydata", url = url, p_color = ru_colors["RUred"],
   p_family = "Aller_Rg", p_size = 7, p_y = 1,
   s_x = 0.98, s_y = 1, s_width = 2.01, s_height = 2.3,
-  h_fill = 'black', h_color = ru_colors["RUgrey"],
-  u_color = ru_colors['RUgrey'],
+  h_fill = 'black', h_color = ru_colors["RUgrey"], u_color = 'white',
   filename = "stickers/untidydata.png")
 
