@@ -72,7 +72,7 @@ data[data$x == 30 & data$y > 23 |
 
 p <- data %>%
   ggplot(., aes(x = x, y = y, label = label)) +
-    geom_text(size = 1.3, alpha = 0.2,
+    geom_text(size = 1.3, alpha = 0.7, color = ru_colors["RUgrey"],
               position = position_jitter(height = 0.1, width = 0.1),
               angle = sample(x = 0:360, size = 900, replace = TRUE)) +
     #annotate('text', x =  5.40, y = 15.50, label = "u", size = 7.1, angle = 10) +
@@ -89,9 +89,10 @@ p <- data %>%
     theme_transparent()
 
 sticker(
-  p, package = "untidydata", url = url, p_color = 'black',
-  p_family = "Aller_Rg", p_size = 6, p_y = 1,
+  p, package = "untidydata", url = url, p_color = ru_colors["RUred"],
+  p_family = "Aller_Rg", p_size = 7, p_y = 1,
   s_x = 0.98, s_y = 1, s_width = 2.01, s_height = 2.3,
-  h_fill = 'white', h_color = 'black', u_color = ru_colors['RUgrey'],
+  h_fill = 'black', h_color = ru_colors["RUgrey"],
+  u_color = ru_colors['RUgrey'],
   filename = "stickers/untidydata.png")
 
