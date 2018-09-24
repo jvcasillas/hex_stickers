@@ -1,7 +1,7 @@
 # Set working directory
 source("./scripts/helpers.R")
 
-url <- "github.com/jvcasillas/untidydata"
+url <- "jvcasillas.com/untidydata"
 
 data <- tibble(x = 1:30, y = 1:30) %>%
   modelr::data_grid(., x, y) %>%
@@ -24,7 +24,7 @@ data[data$x == 7 & data$y > 26 |
 data[data$x == 8 & data$y > 26 |
      data$x == 8 & data$y < 4, 'label'] <- " "
 data[data$x == 9 & data$y > 27 |
-     data$x == 9 & data$y < 3, 'label'] <- " "
+     data$x == 9 & data$y < 4, 'label'] <- " "
 data[data$x == 10 & data$y > 27 |
      data$x == 10 & data$y < 3, 'label'] <- " "
 data[data$x == 11 & data$y > 28 |
@@ -93,5 +93,6 @@ sticker(
   p_family = "Aller_Rg", p_size = 7, p_y = 1,
   s_x = 0.98, s_y = 1, s_width = 2.01, s_height = 2.3,
   h_fill = 'black', h_color = ru_colors["RUgrey"], u_color = 'white',
+  u_size = 1.75,
   filename = "stickers/untidydata.png")
 

@@ -28,3 +28,6 @@ list.files("./stickers") %>%
 - lingStuff
 - academicWriteR
 
+## To print
+
+https://www.stickermule.com/uses/hexagon-stickers

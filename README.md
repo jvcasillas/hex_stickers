@@ -9,6 +9,12 @@ has changed a lot.
 
 <p align="center">
 
+<img src='stickers/academicWriteR.png' width='350px'/>
+
+</p>
+
+<p align="center">
+
 <img src='stickers/ds4ling.png' width='350px'/>
 
 </p>
@@ -41,3 +47,7 @@ has changed a lot.
 
   - lingStuff
   - academicWriteR
+
+## To print
+
+<https://www.stickermule.com/uses/hexagon-stickers>
