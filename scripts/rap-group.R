@@ -29,7 +29,7 @@ sticker(
   p_family = "Comic Sans MS", p_size = 5, p_y = 1.0,
   s_x = 1, s_y = 0.75, s_width = 2.5, s_height = 2.2,
   h_fill = ru_colors['RUred'], h_color = ru_colors['RUgrey'],
-  #spotlight = T, l_y = 1, l_x = 1, l_alpha = 0.2, l_width = 4, l_height = 4,
+  spotlight = T, l_y = 1, l_x = 1, l_alpha = 0.3, l_width = 4, l_height = 4,
   u_color = 'white',
   filename = "stickers/rap-group.png")
 
