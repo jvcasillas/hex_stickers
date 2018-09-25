@@ -26,7 +26,6 @@ list.files("./stickers") %>%
 ## To add
 
 - lingStuff
-- academicWriteR
 
 ## To print
 

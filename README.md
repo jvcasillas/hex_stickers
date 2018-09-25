@@ -46,7 +46,6 @@ has changed a lot.
 ## To add
 
   - lingStuff
-  - academicWriteR
 
 ## To print
 
