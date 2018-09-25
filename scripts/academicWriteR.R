@@ -2,10 +2,8 @@
 source("./scripts/helpers.R")
 
 url <- "jvcasillas.com/academicWriteR"
-img <- png::readPNG("./img_helpers/typewritter_3.png")
+img <- png::readPNG("./img_helpers/typewritter.png")
 rast <- grid::rasterGrob(img, interpolate = T)
-font_add_google("Metrophobic", "Metrophobic")
-myFont1 <- "Metrophobic"
 
 p <-
   tibble(x = rnorm(100), y = rnorm(100)) %>%
