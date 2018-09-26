@@ -27,6 +27,12 @@ has changed a lot.
 
 <p align="center">
 
+<img src='stickers/lingStuff.png' width='350px'/>
+
+</p>
+
+<p align="center">
+
 <img src='stickers/osrrl.png' width='350px'/>
 
 </p>
@@ -42,10 +48,6 @@ has changed a lot.
 <img src='stickers/untidydata.png' width='350px'/>
 
 </p>
-
-## To add
-
-  - lingStuff
 
 ## To print
 

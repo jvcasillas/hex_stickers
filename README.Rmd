@@ -23,9 +23,6 @@ list.files("./stickers") %>%
   cat(fill = TRUE)
 ```
 
-## To add
-
-- lingStuff
 
 ## To print
 
