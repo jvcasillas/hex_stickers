@@ -14,7 +14,7 @@ changed a lot.
 
 ```{r, results = 'asis', echo=F}
 list.files("./stickers") %>% 
-  as_tibble(.) %>% 
+  tibble::enframe(.) %>% 
   rename(., val = value) %>% 
   filter(., val != "rap-group-v2.png") %>% 
   pull(.) %>% 

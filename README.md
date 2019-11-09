@@ -33,6 +33,18 @@ has changed a lot.
 
 <p align="center">
 
+<img src='stickers/opnlnx-v2.png' width='350px'/>
+
+</p>
+
+<p align="center">
+
+<img src='stickers/opnlnx.png' width='350px'/>
+
+</p>
+
+<p align="center">
+
 <img src='stickers/osrrl.png' width='350px'/>
 
 </p>
