@@ -21,6 +21,12 @@ has changed a lot.
 
 <p align="center">
 
+<img src='stickers/intro_phonetics_mat.png' width='350px'/>
+
+</p>
+
+<p align="center">
+
 <img src='stickers/intro_phonetics.png' width='350px'/>
 
 </p>
