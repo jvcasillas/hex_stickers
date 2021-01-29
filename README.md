@@ -8,63 +8,40 @@ was forked from
 has changed a lot.
 
 <p align="center">
-
 <img src='stickers/academicWriteR.png' width='350px'/>
-
 </p>
-
 <p align="center">
-
+<img src='stickers/ds4ling_small.png' width='350px'/>
+</p>
+<p align="center">
 <img src='stickers/ds4ling.png' width='350px'/>
-
 </p>
-
 <p align="center">
-
 <img src='stickers/intro_phonetics_mat.png' width='350px'/>
-
 </p>
-
 <p align="center">
-
 <img src='stickers/intro_phonetics.png' width='350px'/>
-
 </p>
-
 <p align="center">
-
+<img src='stickers/learnB4SS.png' width='350px'/>
+</p>
+<p align="center">
 <img src='stickers/lingStuff.png' width='350px'/>
-
 </p>
-
 <p align="center">
-
 <img src='stickers/opnlnx-v2.png' width='350px'/>
-
 </p>
-
 <p align="center">
-
 <img src='stickers/opnlnx.png' width='350px'/>
-
 </p>
-
 <p align="center">
-
 <img src='stickers/osrrl.png' width='350px'/>
-
 </p>
-
 <p align="center">
-
 <img src='stickers/rap-group.png' width='350px'/>
-
 </p>
-
 <p align="center">
-
 <img src='stickers/untidydata.png' width='350px'/>
-
 </p>
 
 ## To print
