@@ -16,7 +16,7 @@ changed a lot.
 list.files("./stickers") %>% 
   tibble::enframe(.) %>% 
   rename(., val = value) %>% 
-  filter(., val != "rap-group-v2.png") %>% 
+  filter(., !(val %in% c("rap-group-v2.png", "ds4ling_small.png"))) %>% 
   pull(.) %>% 
   sprintf("<p align='center'><img src='stickers/%s' width='350px'/></p>", .) %>%
   paste(collapse = "\n\n") %>% 

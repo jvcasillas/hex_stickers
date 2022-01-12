@@ -11,10 +11,10 @@ has changed a lot.
 <img src='stickers/academicWriteR.png' width='350px'/>
 </p>
 <p align="center">
-<img src='stickers/ds4ling_small.png' width='350px'/>
+<img src='stickers/ds4ling.png' width='350px'/>
 </p>
 <p align="center">
-<img src='stickers/ds4ling.png' width='350px'/>
+<img src='stickers/intro_phonetics_grad.png' width='350px'/>
 </p>
 <p align="center">
 <img src='stickers/intro_phonetics_mat.png' width='350px'/>
