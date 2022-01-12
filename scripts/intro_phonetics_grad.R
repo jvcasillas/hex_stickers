@@ -5,7 +5,7 @@ url <- "github.com/jvcasillas"
 
 set.seed(1)
 
-course_name <- c("Sounds of Spanish")
+course_name <- c("Phonetics and Phonology of Bilingualism")
 
 img <- png::readPNG("./img_helpers/praat.png")
 rast <- grid::rasterGrob(img, interpolate = T)
@@ -21,9 +21,9 @@ p <-
     theme_void() +
     theme_transparent()
 
-sticker(p, package = "SPAN580", url = url, p_family = "Aller_Rg",
+sticker(p, package = "SPAN585", url = url, p_family = "Aller_Rg",
         p_color = ru_colors['RUred'], p_size = 18, p_y = 1.5,
         s_x = 1, s_y = 0.9, s_width = 2.4, s_height = 1, u_size = 5,
         h_fill = 'grey78', h_color = 'black', u_color = 'grey20',
-        filename = "stickers/intro_phonetics_mat.png")
+        filename = "stickers/intro_phonetics_grad.png")
 
