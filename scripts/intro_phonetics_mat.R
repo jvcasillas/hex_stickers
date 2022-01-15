@@ -5,7 +5,7 @@ url <- "github.com/jvcasillas"
 
 set.seed(1)
 
-course_name <- c("Spanish phonetics for teachers")
+course_name <- c("Spanish phonetics\nfor teachers")
 
 img <- png::readPNG("./img_helpers/praat.png")
 rast <- grid::rasterGrob(img, interpolate = T)
@@ -15,8 +15,8 @@ p <-
   ggplot(., aes(x = x, y = y)) +
     geom_point(alpha = 0) +
     annotation_custom(rast, ymin = -5, ymax = 5, xmin = -2.4) +
-    annotate(geom = 'text', x = 0, y = -2.95, label = course_name,
-             size = 7.5, color = "black", fontface = "bold") +
+    annotate(geom = 'text', x = 0, y = -3.15, label = course_name,
+             size = 7.5, color = "black", fontface = "bold", lineheight = 0.3) +
     coord_cartesian(xlim = c(-2.1, 2.2), ylim = c(-3.75, 2)) +
     theme_void() +
     theme_transparent()
