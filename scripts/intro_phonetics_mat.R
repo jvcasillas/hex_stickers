@@ -16,7 +16,7 @@ p <-
     geom_point(alpha = 0) +
     annotation_custom(rast, ymin = -5, ymax = 5, xmin = -2.4) +
     annotate(geom = 'text', x = 0, y = -2.95, label = course_name,
-             size = 5.5, color = "black", fontface = "bold") +
+             size = 7.5, color = "black", fontface = "bold") +
     coord_cartesian(xlim = c(-2.1, 2.2), ylim = c(-3.75, 2)) +
     theme_void() +
     theme_transparent()

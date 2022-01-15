@@ -5,7 +5,7 @@ url <- "github.com/jvcasillas"
 
 set.seed(1)
 
-course_name <- c("Phonetics and Phonology of Bilingualism")
+course_name <- c("Phonetics and Phonology\nof Bilingualism")
 
 img <- png::readPNG("./img_helpers/praat.png")
 rast <- grid::rasterGrob(img, interpolate = T)
@@ -16,7 +16,7 @@ p <-
     geom_point(alpha = 0) +
     annotation_custom(rast, ymin = -5, ymax = 5, xmin = -2.4) +
     annotate(geom = 'text', x = 0, y = -2.95, label = course_name,
-             size = 5.5, color = "black", fontface = "bold") +
+             size = 7.5, color = "black", fontface = "bold", lineheight = 0.3) +
     coord_cartesian(xlim = c(-2.1, 2.2), ylim = c(-3.75, 2)) +
     theme_void() +
     theme_transparent()
