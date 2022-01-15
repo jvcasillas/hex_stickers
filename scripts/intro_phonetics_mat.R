@@ -5,7 +5,7 @@ url <- "github.com/jvcasillas"
 
 set.seed(1)
 
-course_name <- c("Sounds of Spanish")
+course_name <- c("Spanish phonetics for teachers")
 
 img <- png::readPNG("./img_helpers/praat.png")
 rast <- grid::rasterGrob(img, interpolate = T)
