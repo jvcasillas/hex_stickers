@@ -35,6 +35,9 @@ has changed a lot.
 <img src='stickers/opnlnx.png' width='350px'/>
 </p>
 <p align="center">
+<img src='stickers/osrrl 2.png' width='350px'/>
+</p>
+<p align="center">
 <img src='stickers/osrrl.png' width='350px'/>
 </p>
 <p align="center">

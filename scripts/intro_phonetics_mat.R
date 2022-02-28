@@ -9,21 +9,25 @@ course_name <- c("Spanish phonetics\nfor teachers")
 
 img <- png::readPNG("./img_helpers/praat.png")
 rast <- grid::rasterGrob(img, interpolate = T)
+font_add_google("Catamaran", "Catamaran")
+myFont1 <- "Catamaran"
 
 p <-
   tibble(x = rnorm(100), y = rnorm(100)) %>%
   ggplot(., aes(x = x, y = y)) +
     geom_point(alpha = 0) +
-    annotation_custom(rast, ymin = -5, ymax = 5, xmin = -2.4) +
-    annotate(geom = 'text', x = 0, y = -3.15, label = course_name,
-             size = 7.5, color = "black", fontface = "bold", lineheight = 0.3) +
-    coord_cartesian(xlim = c(-2.1, 2.2), ylim = c(-3.75, 2)) +
+    annotation_custom(rast, ymin = -1, ymax = 1, xmin = -1, xmax = 1) +
+    annotate(geom = 'text', x = 0, y = 0.9, label = "SPAN580",
+      hjust = 0.5, size = 19, color = "#cc0033", family = myFont1,
+      lineheight = 0.3) +
+    coord_cartesian(xlim = c(-1, 1), ylim = c(-1, 1)) +
     theme_void() +
     theme_transparent()
 
-sticker(p, package = "SPAN580", url = url, p_family = "Aller_Rg",
-        p_color = ru_colors['RUred'], p_size = 18, p_y = 1.5,
-        s_x = 1, s_y = 0.9, s_width = 2.4, s_height = 1, u_size = 5,
-        h_fill = 'grey78', h_color = 'black', u_color = 'grey20',
+sticker(p, package = course_name, url = url, p_family = "Aller_Rg",
+        p_color = ru_colors['RUblack'], p_size = 8, p_y = 0.55,
+        s_x = 1, s_y = 1, s_width = 2.5, s_height = 1.5, u_size = 5,
+        lineheight = 0.3, h_fill = 'grey78', h_color = 'black',
+        u_color = 'white',
         filename = "stickers/intro_phonetics_mat.png")
 
