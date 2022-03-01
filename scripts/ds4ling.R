@@ -15,7 +15,7 @@ p <- rnorm(n = 10000, mean = -2.5, sd = 0.65) %>%
     geom_histogram(aes(y = ..density..),
       color = 'grey78', fill = ru_colors['RUgrey'], bins = 17,
       size = 0.2) +
-    annotate(geom = 'text', x = 0, y = 0.9, label = "SPAN658",
+    annotate(geom = 'text', x = 0, y = 0.9, label = "SPAN660",
       hjust = 0.5, size = 19, color = ru_colors['RUred'], family = myFont1) +
     coord_cartesian(xlim = c(-5, 5), ylim = c(0, 1)) +
     theme_void() +
