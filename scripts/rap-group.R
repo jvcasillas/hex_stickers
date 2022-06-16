@@ -64,4 +64,4 @@ sticker(
   h_fill = ru_colors['RUred'], h_color = ru_colors['RUgrey'],
   spotlight = T, l_y = 1, l_x = 1, l_alpha = 0.3, l_width = 4, l_height = 4,
   u_color = 'white', u_size = 2, dpi = 900,
-  filename = "stickers/rap-group_print.png")
+  filename = "stickers/rap-group_print.pdf")
