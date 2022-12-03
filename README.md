@@ -38,6 +38,12 @@ has changed a lot.
 <img src='stickers/osrrl.png' width='350px'/>
 </p>
 <p align="center">
+<img src='stickers/rap-group_print.pdf' width='350px'/>
+</p>
+<p align="center">
+<img src='stickers/rap-group_print.png' width='350px'/>
+</p>
+<p align="center">
 <img src='stickers/rap-group.png' width='350px'/>
 </p>
 <p align="center">

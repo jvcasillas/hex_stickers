@@ -5,7 +5,8 @@ url <- "github.com/jvcasillas"
 
 set.seed(1)
 
-course_name <- c("Open Science and\nReproducibility in\nLanguage Research")
+course_name <- c("Open Science and\nReproducible Research in\nLinguistics")
+#course_name <- c("Open Science and\nReproducibility in\nLanguage Research")
 
 img <- png::readPNG("./img_helpers/osf.png")
 rast <- grid::rasterGrob(img, interpolate = T)
@@ -17,7 +18,7 @@ p <-
   ggplot(., aes(x = x, y = y)) +
     geom_point(alpha = 0) +
     annotation_custom(rast, ymin = -1.05, ymax = 0.6, xmin = -7.5) +
-    annotate(geom = 'text', x = -3.05, y = 0.7, label = "SPAN661",
+    annotate(geom = 'text', x = -3.05, y = 0.7, label = "SPAN581",
       hjust = 0.5, size = 19, color = "#cc0033", family = myFont1,
       lineheight = 0.3) +
     coord_cartesian(xlim = c(-7, 1), ylim = c(-1, 1)) +

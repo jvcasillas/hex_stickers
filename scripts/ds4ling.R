@@ -12,10 +12,10 @@ myFont1 <- "Catamaran"
 p <- rnorm(n = 10000, mean = -2.5, sd = 0.65) %>%
   as_tibble(.) %>%
   ggplot(., aes(x = value)) +
-    geom_histogram(aes(y = ..density..),
+    geom_histogram(aes(y = after_stat(density)),
       color = 'grey78', fill = ru_colors['RUgrey'], bins = 17,
-      size = 0.2) +
-    annotate(geom = 'text', x = 0, y = 0.9, label = "SPAN660",
+      linewidth = 0.2) +
+    annotate(geom = 'text', x = 0, y = 0.9, label = "SPAN589",
       hjust = 0.5, size = 19, color = ru_colors['RUred'], family = myFont1) +
     coord_cartesian(xlim = c(-5, 5), ylim = c(0, 1)) +
     theme_void() +
