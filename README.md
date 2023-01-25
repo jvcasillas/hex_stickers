@@ -14,6 +14,9 @@ has changed a lot.
 <img src='stickers/ds4ling.png' width='350px'/>
 </p>
 <p align="center">
+<img src='stickers/fosil-project.png' width='350px'/>
+</p>
+<p align="center">
 <img src='stickers/intro_phonetics_grad.png' width='350px'/>
 </p>
 <p align="center">
