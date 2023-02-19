@@ -2,7 +2,7 @@
 source("./scripts/helpers.R")
 
 url <- "https://fosil-project.github.io"
-img <- png::readPNG("./img_helpers/fosil.png")
+img <- png::readPNG("./img_helpers/fosil_wug.png")
 rast <- grid::rasterGrob(img, interpolate = T)
 
 p <-
