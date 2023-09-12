@@ -50,6 +50,9 @@ has changed a lot.
 <img src='stickers/rap-group.png' width='350px'/>
 </p>
 <p align="center">
+<img src='stickers/rult.png' width='350px'/>
+</p>
+<p align="center">
 <img src='stickers/untidydata.png' width='350px'/>
 </p>
 
