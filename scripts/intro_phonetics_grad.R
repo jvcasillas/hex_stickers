@@ -17,7 +17,7 @@ p <-
   ggplot(., aes(x = x, y = y)) +
     geom_point(alpha = 0) +
     annotation_custom(rast, ymin = -1, ymax = 1, xmin = -1, xmax = 1) +
-    annotate(geom = 'text', x = 0, y = 0.9, label = "SPAN650",
+    annotate(geom = 'text', x = 0, y = 0.9, label = "SPAN585",
       hjust = 0.5, size = 19, color = "#cc0033", family = myFont1,
       lineheight = 0.3) +
     coord_cartesian(xlim = c(-1, 1), ylim = c(-1, 1)) +
